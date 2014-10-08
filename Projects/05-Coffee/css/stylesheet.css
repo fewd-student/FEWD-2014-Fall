@@ -1,0 +1,61 @@
+
+	.logo_cell {
+		height: 200px;
+
+		position: relative;
+
+		background: #241915 url(../images/beans.jpg) repeat center;
+		color: #fff;
+		margin-bottom: 50px;
+	}
+
+	.logo {
+		width: 271px;
+		height: 103px;
+
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+
+		background: url(../images/logo.png);
+		display: block;
+		margin: auto;
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+	}
+
+	/* Mobile Only */
+	@media screen and (max-width: 739px) {
+		/* grid system overrides */
+		.gridlock .logo_row,
+		.gridlock .logo_row .logo_cell {
+			width: 100%;
+
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+
+	/* Tablet */
+	@media screen and (min-width: 740px) {
+		.logo_cell {
+			height: 400px;
+
+			margin-top: 50px;
+		}
+	}
+
+	/* Desktop */
+	@media screen and (min-width: 980px) {
+		.logo_cell {
+			height: 500px;
+		}
+	}
+
+
+
+
+
