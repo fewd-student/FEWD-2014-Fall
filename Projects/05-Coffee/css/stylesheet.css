@@ -69,21 +69,22 @@
 	}
 
 	.logo {
+		/* Image Mask */
 		width: 271px;
 		height: 103px;
+		background: url(../images/logo.png);
+		display: block;
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
 
+		/* Positioning */
+		margin: auto;
 		position: absolute;
 		top: 0;
 		right: 0;
 		bottom: 0;
 		left: 0;
-
-		background: url(../images/logo.png);
-		display: block;
-		margin: auto;
-		overflow: hidden;
-		text-indent: 100%;
-		white-space: nowrap;
 	}
 
 
@@ -167,7 +168,18 @@
 	}
 
 	.footer_list_item:before {
+		background: #fff;
+		border-radius: 100%;
 		content: '';
+		float: left;
+		display: block;
+		height: 4px;
+		width: 4px;
+		margin: 7px 22px 0 0;
+	}
+
+	.footer_list_item_first:before {
+		display: none;
 	}
 
 
