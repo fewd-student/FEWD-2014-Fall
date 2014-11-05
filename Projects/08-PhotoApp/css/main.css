@@ -22,7 +22,7 @@
 	}
 
 	.button {
-		background: #2b3f4c;
+		background: #000;
 		border-radius: 3px;
 		color: #fff;
 		display: block;
@@ -30,10 +30,11 @@
 		padding: 10px 30px;
 		text-align: center;
 		text-transform: uppercase;
+		width: 100%;
 	}
 
 	.no-touch .button:hover {
-		background: #000;
+		/* background: #000; */
 	}
 
 
@@ -91,6 +92,28 @@
 
 	.gallery_image img {
 		width: 100%;
+	}
+
+	/* download */
+
+	.download_button {
+		background: #000 url(../images/icon_sprite.png) no-repeat;
+		height: 55px;
+		margin: 0 0 10px;
+		text-indent: 200%;
+		white-space: nowrap;
+	}
+
+	.download_button.appstore {
+		background-position: center -200px;
+	}
+
+	.download_button.google {
+		background-position: center -260px;
+	}
+
+	.download_button.amazon {
+		background-position: center -320px;
 	}
 
 
