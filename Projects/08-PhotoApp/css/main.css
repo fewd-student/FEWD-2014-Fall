@@ -88,6 +88,53 @@
 		font-size: 20px;
 	}
 
+	/* Features */
+
+	.features {
+
+	}
+
+	.feature {
+
+	}
+
+	.feature_heading {
+		color: #e77e04;
+		font-size: 26px;
+		line-height: 1;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	.feature_heading:after {
+		background: url(../images/icon_sprite.png) no-repeat 0 0;
+		content: '';
+		display: inline-block;
+		margin: 0 0 0 15px;
+		vertical-align: middle;
+	}
+
+	.tag .feature_heading:after {
+		background-position: 0 -80px;
+		height: 31px;
+		width: 31px;
+		margin-top: -5px;
+	}
+
+	.cloud .feature_heading:after {
+		background-position: -40px -80px;
+		height: 25px;
+		width: 35px;
+		margin-top: -5px;
+	}
+
+	.map .feature_heading:after {
+		background-position: -80px -80px;
+		height: 31px;
+		width: 25px;
+		margin-top: -7px;
+	}
+
 	/* Gallery Image */
 
 	.gallery_image img {

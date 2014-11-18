@@ -1,31 +1,3 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-    <head>
-    	<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="mobile-web-app-capable" content="yes">
-
-		<title>PicticiousPro</title>
-
-		<script src="components/modernizr/modernizr.js"></script>
-
-		<link  rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:400,400italic,700,700italic">
-
-		<link rel="stylesheet" href="components/normalize-css/normalize.css">
-		<link rel="stylesheet" href="components/Gridlock/fs.gridlock.min.css">
-		<link rel="stylesheet" href="css/main.css">
-
-		<!-- <link rel="stylesheet" href="css/site.min.css"> -->
-    </head>
-    <body class="gridlock">
-
-		<header class="header row">
-			<div class="all-full">
-				<a href="#" class="logo"><strong>Picticious</strong>Pro</a>
-			</div>
-		</header>
-
 		<section class="intro">
 			<div class="row intro_row">
 				<div class="mobile-full tablet-4 desktop-6 max-5 max-push-1">
@@ -92,6 +64,3 @@
 				<a href="#" class="button download_button amazon">Download on Amazon</a>
 			</div>
 		</section>
-
-    </body>
-</html>
