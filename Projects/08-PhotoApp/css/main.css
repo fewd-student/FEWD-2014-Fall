@@ -137,7 +137,13 @@
 
 	/* Gallery Image */
 
+/*
 	.gallery_image img {
+		width: 100%;
+	}
+*/
+
+	.fit_image {
 		width: 100%;
 	}
 

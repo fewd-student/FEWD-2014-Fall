@@ -52,7 +52,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-concat');
 
 	// Production
-	grunt.registerTask('production', [ 'uglify', 'cssmin' ]);
+	grunt.registerTask('default', [ 'uglify', 'cssmin' ]);
 
 	// Alias watch to development
 	grunt.registerTask('development', [ 'watch' ]);

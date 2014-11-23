@@ -10,13 +10,22 @@
 
 		<script src="components/modernizr/modernizr.js"></script>
 
-		<link  rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:400,400italic,700,700italic">
-
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:400,400italic,700,700italic">
 		<link rel="stylesheet" href="components/normalize-css/normalize.css">
 		<link rel="stylesheet" href="components/Gridlock/fs.gridlock.min.css">
+		<link rel="stylesheet" href="components/Boxer/jquery.fs.boxer.min.css">
+		<link rel="stylesheet" href="components/animate.css/animate.min.css">
 		<link rel="stylesheet" href="css/main.css">
 
-		<!-- <link rel="stylesheet" href="css/site.min.css"> -->
+		<script src="components/jquery/dist/jquery.min.js"></script>
+		<script src="components/Boxer/jquery.fs.boxer.min.js"></script>
+		<script src="components/WOW/dist/wow.min.js"></script>
+		<script src="js/main.js"></script>
+
+<!--
+		<link rel="stylesheet" href="css/site.min.css">
+		<script src="js/site.min.js"></script>
+-->
     </head>
     <body class="gridlock">
 
@@ -29,9 +38,9 @@
 		<section class="intro">
 			<div class="row intro_row">
 				<div class="mobile-full tablet-4 desktop-6 max-5 max-push-1">
-					<h1 class="intro_title">Nice Shot</h1>
-					<p class="intro_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-					<a href="#download" class="button intro_button">Download Now</a>
+					<h1 class="intro_title wow fadeInRight">Nice Shot</h1>
+					<p class="intro_text wow fadeInRight" data-wow-delay="0.1s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+					<a href="#download" class="button intro_button wow fadeInRight" data-wow-delay="0.2s">Download Now</a>
 				</div>
 			</div>
 		</section>
@@ -58,29 +67,29 @@
 					Content..
 				</div>
 
-				<a href="images/photos/01.png" class="mobile-half tablet-1 desktop-2 gallery_image">
-					<img src="images/photos/thumb_01.png">
+				<a href="images/photos/01.jpg" class="mobile-half tablet-1 desktop-2 gallery_image lightbox wow flipInX" data-gallery="gallery" title="Photo 1. So nice.">
+					<img src="images/photos/thumb_01.jpg" class="fit_image">
 				</a>
-				<a href="images/photos/02.png" class="mobile-half tablet-1 desktop-2 gallery_image">
-					<img src="images/photos/thumb_02.png">
+				<a href="images/photos/02.jpg" class="mobile-half tablet-1 desktop-2 gallery_image lightbox wow flipInX" data-gallery="gallery" data-wow-delay="0.1s">
+					<img src="images/photos/thumb_02.jpg" class="fit_image">
 				</a>
-				<a href="images/photos/03.png" class="mobile-half tablet-1 desktop-2 gallery_image">
-					<img src="images/photos/thumb_03.png">
+				<a href="images/photos/03.jpg" class="mobile-half tablet-1 desktop-2 gallery_image lightbox wow flipInX" data-gallery="gallery" data-wow-delay="0.2s">
+					<img src="images/photos/thumb_03.jpg" class="fit_image">
 				</a>
-				<a href="images/photos/04.png" class="mobile-half tablet-1 desktop-2 gallery_image">
-					<img src="images/photos/thumb_04.png">
+				<a href="images/photos/04.jpg" class="mobile-half tablet-1 desktop-2 gallery_image lightbox wow flipInX" data-gallery="gallery" data-wow-delay="0.3s">
+					<img src="images/photos/thumb_04.jpg" class="fit_image">
 				</a>
-				<a href="images/photos/05.png" class="mobile-half tablet-1 desktop-2 gallery_image">
-					<img src="images/photos/thumb_05.png">
+				<a href="images/photos/05.jpg" class="mobile-half tablet-1 desktop-2 gallery_image lightbox wow flipInX" data-gallery="gallery" data-wow-delay="0.4s">
+					<img src="images/photos/thumb_05.jpg" class="fit_image">
 				</a>
-				<a href="images/photos/06.png" class="mobile-half tablet-1 desktop-2 gallery_image">
-					<img src="images/photos/thumb_06.png">
+				<a href="images/photos/06.jpg" class="mobile-half tablet-1 desktop-2 gallery_image lightbox wow flipInX" data-gallery="gallery" data-wow-delay="0.5s">
+					<img src="images/photos/thumb_06.jpg" class="fit_image">
 				</a>
-				<a href="images/photos/07.png" class="mobile-half tablet-1 desktop-2 gallery_image">
-					<img src="images/photos/thumb_07.png">
+				<a href="images/photos/07.jpg" class="mobile-half tablet-1 desktop-2 gallery_image lightbox wow flipInX" data-gallery="gallery" data-wow-delay="0.6s">
+					<img src="images/photos/thumb_07.jpg" class="fit_image">
 				</a>
-				<a href="images/photos/08.png" class="mobile-half tablet-1 desktop-2 gallery_image">
-					<img src="images/photos/thumb_08.png">
+				<a href="images/photos/08.jpg" class="mobile-half tablet-1 desktop-2 gallery_image lightbox wow flipInX" data-gallery="gallery" data-wow-delay="0.7s">
+					<img src="images/photos/thumb_08.jpg" class="fit_image">
 				</a>
 			</div>
 		</section>

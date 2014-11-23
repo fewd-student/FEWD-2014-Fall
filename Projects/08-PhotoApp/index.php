@@ -5,7 +5,7 @@
 	// Figure out www_root
 	$url = strtolower("http" . (($_SERVER["HTTPS"]) ? "s://" : "://") . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
 	$cwd = end(explode("/", strtolower(getcwd())));
-	$www_root = substr($url, 0, strpos($url, $cwd) + strlen($cwd)) . "/";
+	$www_root = (strpos($url, strtolower(getcwd())) > -1) ? substr($url, 0, strpos($url, $cwd) + strlen($cwd)) . "/" : $url . "/";
 
 	// Get requested URL
 	$current_url = $_GET["request_url"];
